@@ -1,0 +1,229 @@
+{
+   "openapi":"3.1.0",
+   "info":{
+      "title":"FastAPI",
+      "version":"0.1.0"
+   },
+   "paths":{
+      "/v1/collector/solar/power":{
+         "get":{
+            "tags":[
+               "collector"
+            ],
+            "summary":"Get Solar Power",
+            "operationId":"get_solar_power_v1_collector_solar_power_get",
+            "responses":{
+               "200":{
+                  "description":"Successful Response",
+                  "content":{
+                     "application/json":{
+                        "schema":{
+                           "type":"number",
+                           "title":"Response Get Solar Power V1 Collector Solar Power Get"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "/v1/collector/solar/voltage":{
+         "get":{
+            "tags":[
+               "collector"
+            ],
+            "summary":"Get Solar Voltage",
+            "operationId":"get_solar_voltage_v1_collector_solar_voltage_get",
+            "responses":{
+               "200":{
+                  "description":"Successful Response",
+                  "content":{
+                     "application/json":{
+                        "schema":{
+                           "type":"number",
+                           "title":"Response Get Solar Voltage V1 Collector Solar Voltage Get"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "/v1/collector/solar/current":{
+         "get":{
+            "tags":[
+               "collector"
+            ],
+            "summary":"Get Solar Current",
+            "operationId":"get_solar_current_v1_collector_solar_current_get",
+            "responses":{
+               "200":{
+                  "description":"Successful Response",
+                  "content":{
+                     "application/json":{
+                        "schema":{
+                           "type":"number",
+                           "title":"Response Get Solar Current V1 Collector Solar Current Get"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "/v1/collector/battery/voltage":{
+         "get":{
+            "tags":[
+               "collector"
+            ],
+            "summary":"Get Battery Voltage",
+            "operationId":"get_battery_voltage_v1_collector_battery_voltage_get",
+            "responses":{
+               "200":{
+                  "description":"Successful Response",
+                  "content":{
+                     "application/json":{
+                        "schema":{
+                           "type":"number",
+                           "title":"Response Get Battery Voltage V1 Collector Battery Voltage Get"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "/v1/collector/battery/percentage":{
+         "get":{
+            "tags":[
+               "collector"
+            ],
+            "summary":"Get Battery Voltage",
+            "operationId":"get_battery_voltage_v1_collector_battery_percentage_get",
+            "responses":{
+               "200":{
+                  "description":"Successful Response",
+                  "content":{
+                     "application/json":{
+                        "schema":{
+                           "type":"number",
+                           "title":"Response Get Battery Voltage V1 Collector Battery Percentage Get"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "/v1/collector/battery/current":{
+         "get":{
+            "tags":[
+               "collector"
+            ],
+            "summary":"Get Battery Current",
+            "operationId":"get_battery_current_v1_collector_battery_current_get",
+            "responses":{
+               "200":{
+                  "description":"Successful Response",
+                  "content":{
+                     "application/json":{
+                        "schema":{
+                           "type":"number",
+                           "title":"Response Get Battery Current V1 Collector Battery Current Get"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "/v1/collector/battery/current/out":{
+         "get":{
+            "tags":[
+               "collector"
+            ],
+            "summary":"Get Battery Output Current",
+            "operationId":"get_battery_output_current_v1_collector_battery_current_out_get",
+            "responses":{
+               "200":{
+                  "description":"Successful Response",
+                  "content":{
+                     "application/json":{
+                        "schema":{
+                           "type":"number",
+                           "title":"Response Get Battery Output Current V1 Collector Battery Current Out Get"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "/v1/collector/vrm/status":{
+         "get":{
+            "tags":[
+               "collector"
+            ],
+            "summary":"Get Vrm Status",
+            "operationId":"get_vrm_status_v1_collector_vrm_status_get",
+            "responses":{
+               "200":{
+                  "description":"Successful Response",
+                  "content":{
+                     "application/json":{
+                        "schema":{
+                           "type":"string",
+                           "title":"Response Get Vrm Status V1 Collector Vrm Status Get"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "/v1/collector/inverter/output/voltage":{
+         "get":{
+            "tags":[
+               "collector"
+            ],
+            "summary":"Get Inverter Output Voltage",
+            "operationId":"get_inverter_output_voltage_v1_collector_inverter_output_voltage_get",
+            "responses":{
+               "200":{
+                  "description":"Successful Response",
+                  "content":{
+                     "application/json":{
+                        "schema":{
+                           "type":"number",
+                           "title":"Response Get Inverter Output Voltage V1 Collector Inverter Output Voltage Get"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "/v1/collector/inverter/output/power":{
+         "get":{
+            "tags":[
+               "collector"
+            ],
+            "summary":"Get Inverter Output Power",
+            "operationId":"get_inverter_output_power_v1_collector_inverter_output_power_get",
+            "responses":{
+               "200":{
+                  "description":"Successful Response",
+                  "content":{
+                     "application/json":{
+                        "schema":{
+                           "type":"number",
+                           "title":"Response Get Inverter Output Power V1 Collector Inverter Output Power Get"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
