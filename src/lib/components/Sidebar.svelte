@@ -49,7 +49,7 @@
 	let links = [
 		{
 			label: 'GitHub Repository',
-			href: 'https://github.com/giusliso/bf-academy-webapp/',
+			href: 'https://github.com/npacucci/bf-academy-iot-dashboard',
 			icon: GithubSolid
 		},
 		{

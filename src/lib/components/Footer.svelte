@@ -16,7 +16,7 @@
 
 	const brands: [ComponentType, string][] = [
 		[TwitterSolid, 'https://twitter.com/BurdaForward'],
-		[GithubSolid, 'https://github.com/giusliso/bf-academy-webapp/'],
+		[GithubSolid, 'https://github.com/npacucci/bf-academy-iot-dashboard'],
 	];
 </script>
 
