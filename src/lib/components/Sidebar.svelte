@@ -43,7 +43,7 @@
 
 	let posts = [
 		{ name: 'Dashboard', icon: ChartPieSolid, href: '/' },
-		{ name: 'Lesson', icon: BookOpenSolid, href: '/lesson' },
+		{ name: 'Lesson', icon: BookOpenSolid, href: '/exercises' },
 	];
 
 	let links = [
