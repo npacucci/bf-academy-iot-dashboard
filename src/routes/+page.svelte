@@ -118,19 +118,19 @@ onDestroy(() => {
     <div class="mt-px space-y-4">
         <div class="grid gap-4 grid-cols-2 2xl:grid-cols-5">
             <SolarPowerWidget value={$widgetsData.solarPower} title="Solar Panel Power" subtitle="The actual solar panel power" />
-            <SolarVoltageWidget value={$widgetsData.solarVoltage} title="Solar Panel Voltage" subtitle="The actual solar panel voltage" />
+            <SolarVoltageWidget value={$widgetsData.solarVoltage} title="Solar Panel Input Voltage" subtitle="The actual solar panel voltage" />
             <div class="col-span-3">
-                <SolarCurrentWidget value={$widgetsData.solarCurrent} title="Solar Panel Current" subtitle="The actual solar panel current history" />
+                <SolarCurrentWidget value={$widgetsData.solarCurrent} title="Solar Panel Input Current" subtitle="The actual solar panel current history" />
             </div>
         </div>
         <div class="grid gap-4 grid-cols-2 2xl:grid-cols-5">
             <BatteryPercentaceWidget value={$widgetsData.batteryPercentage} title="Battery Percentage" subtitle="The actual battery percentage" />
             <BatteryVoltageWidget value={$widgetsData.batteryVoltage} title="Battery Voltage" subtitle="The actual battery voltage" />
             <div class="col-span-3">
-                <BatteryCurrentWidget value={$widgetsData.batteryCurrent} title="Battery Current" subtitle="The actual battery current history" />
+                <BatteryCurrentWidget value={$widgetsData.batteryCurrent} title="Battery Input Current" subtitle="The actual battery input current" />
             </div>
             <div class="col-span-3">
-                <BatteryCurrentWidget value={$widgetsData.batteryOutCurrent} title="Battery Output Current" subtitle="The actual battery current output history" />
+                <BatteryCurrentWidget value={$widgetsData.batteryOutCurrent} title="Battery Output Current" subtitle="The actual battery output current" />
             </div>
             <InverterPowerWidget value={$widgetsData.inverterOutputPower} title="Inverter Power" subtitle="The actual inverter power" />
             <div>
